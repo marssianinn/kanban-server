@@ -1,0 +1,20 @@
+{
+  "users": [
+    { "id": 1, "email": "smax6683@gmail.com", "password": "password1" },
+    { "id": 2, "email": "marsianin025@gmail.com", "password": "password2" }
+  ],
+  "boards": [
+    {
+      "id": 1,
+      "title": "Board 1",
+      "members": [1],
+      "columns": [
+        { "id": 1, "title": "To Do", "taskIds": [] },
+        { "id": 2, "title": "In Progress", "taskIds": [] },
+        { "id": 3, "title": "Done", "taskIds": [] }
+      ],
+      "tasks": []
+    }
+  ],
+  "tasks": []
+}
